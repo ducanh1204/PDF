@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/ticket"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/img_logo"
+                android:fontFamily="@font/times_new_roman"
+                android:gravity="center_horizontal"
+                android:text="PHIẾU ĐĂNG KÝ/TRỢ GIÚP DỊCH VỤ NGÂN HÀNG ĐIỆN TỬ"
+                android:textColor="@color/text_header"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_logo"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/tv_header_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_header"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/img_logo"
+                android:fontFamily="@font/times_new_roman"
+                android:gravity="center_horizontal"
+                android:text="(Dành cho Khách hàng Cá nhân)"
+                android:textColor="@color/text_header_2"
+                android:textSize="13sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_header_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_header_2"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/img_logo"
+                android:fontFamily="@font/times_new_roman"
+                android:gravity="center_horizontal"
+                android:text="Kính gửi: NGÂN HÀNG TMCP ĐẠI CHÚNG VIỆT NAM"
+                android:textColor="@color/text_header_2"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_menu_title_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_header_3"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="1. THÔNG TIN CHỦ TÀI KHOẢN"
+                android:textColor="@color/text_header_2"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_question_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_menu_title_1"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="Họ và tên*"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_alignTop="@+id/tv_question_name"
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_question_name"
+                android:fontFamily="@font/times_new_roman"
+                android:text="Nguyễn Đức Anh"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
