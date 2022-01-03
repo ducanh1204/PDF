@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/PDF/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android/PDF/app/src/main/res/drawable/bg_edt.xml" value="0.3675" />
+        <entry key="..\:/Android/PDF/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android/PDF/app/src/main/res/layout/activity_pdfactivity.xml" value="0.26145833333333335" />
       </map>
     </option>
   </component>
